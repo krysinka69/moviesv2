@@ -47,7 +47,7 @@ const DISCLAIMER_CONTENT = {
     {
       id: "usage",
       content:
-        "This website should only be used for learning purposes. Any illegal activities, including but not limited to unauthorized downloading, redistribution of content, or commercial use, are strictly prohibited. By using Cinextma, you agree to these terms and acknowledge that",
+        "This website should only be used for learning purposes. Any illegal activities, including but not limited to unauthorized downloading, redistribution of content, or commercial use, are strictly prohibited. By using SofiFlix, you agree to these terms and acknowledge that",
       emphasis: "you use the service at your own risk.",
     },
   ],
