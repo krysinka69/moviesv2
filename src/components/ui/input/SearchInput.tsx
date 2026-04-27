@@ -16,7 +16,7 @@ const SearchInput: React.FC<SearchInputProps> = ({
   onChange,
   className,
   isLoading,
-  placeholder = "Search...",
+  placeholder = "Search your favorite movies...",
   ...props
 }) => {
   const inputRef = useRef<HTMLInputElement>(null);
@@ -46,16 +46,19 @@ const SearchInput: React.FC<SearchInputProps> = ({
       onChange={onChange}
       classNames={{
         inputWrapper: "bg-secondary-background",
-        input: "text-sm",
+        /* This makes the typed text and ghost text white */
+        input: "text-sm text-white! placeholder:text-white/80!",
       }}
       aria-label="Search"
       type="search"
       labelPlacement="outside"
       disabled={isLoading}
-      endContent={!props.value && <Kbd className="hidden md:inline-block">CTRL+K</Kbd>}
+      /* This makes the CTRL+K box white */
+      endContent={!props.value && <Kbd className="hidden md:inline-block text-white bg-white/10">CTRL+K</Kbd>}
       startContent={
-        <div className="text-default-400 pointer-events-none flex shrink-0 items-center pr-1">
-          {isLoading ? <Spinner color="default" size="sm" /> : <FaSearch />}
+        /* This makes the magnifying glass white */
+        <div className="text-white pointer-events-none flex shrink-0 items-center pr-1">
+          {isLoading ? <Spinner color="white" size="sm" /> : <FaSearch />}
         </div>
       }
       {...props}
