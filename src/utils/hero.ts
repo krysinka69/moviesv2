@@ -5,14 +5,14 @@ export default heroui({
     light: {
       colors: {
         //@ts-expect-error this is a custom color name
-        "secondary-background": "#F4F4F5",
+        "secondary-background": "#A6BFD3",
       },
     },
     dark: {
       colors: {
         background: "#0D0C0F",
         //@ts-expect-error this is a custom color name
-        "secondary-background": "#18181B",
+        "secondary-background": "#284377",
       },
     },
   },
