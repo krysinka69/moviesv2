@@ -42,12 +42,6 @@ export const siteConfig: SiteConfigType = {
       icon: <TbFolder className="size-full" />,
       activeIcon: <TbFolderFilled className="size-full" />,
     },
-    {
-      label: "About",
-      href: "/about",
-      icon: <IoInformationCircleOutline className="size-full" />,
-      activeIcon: <IoInformationCircle className="size-full" />,
-    },
   ],
   themes: [
     {
