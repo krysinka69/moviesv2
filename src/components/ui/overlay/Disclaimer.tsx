@@ -42,7 +42,7 @@ const DISCLAIMER_CONTENT = {
     {
       id: "responsibility",
       content:
-        "By using Sofiflix, you acknowledge that I bears no responsibility for user actions, content accuracy, or any direct or indirect damages arising from the use of this website. Users are solely responsible for their actions while using this service. I respect intellectual property rights and will respond to legitimate requests from copyright holders for content removal.",
+        "By using Sofiflix, you acknowledge that I bear no responsibility for user actions, content accuracy, or any direct or indirect damages arising from the use of this website. Users are solely responsible for their actions while using this service. I respect intellectual property rights and will respond to legitimate requests from copyright holders for content removal.",
     },
     {
       id: "usage",
